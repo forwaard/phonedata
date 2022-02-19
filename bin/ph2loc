@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require 'phonedata'
+
+unless ARGV.size == 1
+  puts "usage: ph2loc <Your PhoneNum>"
+  return
+end
+
+STDOUT.puts Phonedata.find_from_cli(ARGV[0])
