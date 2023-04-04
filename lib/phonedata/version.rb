@@ -1,3 +1,3 @@
 module Phonedata
-  VERSION = "0.3.0.2108".freeze
+  VERSION = '0.4.0.2302'.freeze
 end
